@@ -1,0 +1,70 @@
+.slider-w{
+    width: 75%;
+    margin: auto;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+h1:hover{
+    color: #4285f4;
+}
+.mt{
+    margin-top: 40px;
+}
+.card-slider{
+    background-color: #fff;
+    height: 350px;
+    color: black;
+    border-radius: 12px;
+}
+.card-img{
+    border-top-left-radius: 12px; 
+    border-top-right-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 224px;
+}
+.image{
+    height: 176px;
+    width: 176px;
+    border-radius: 9999px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+}
+.name{
+    font-size: x-large;
+    line-height: 2;
+    font-weight: 600;
+    color: #4285f4;
+}
+a:link{
+    text-decoration: none;
+    color: #4285f4;
+}
+.designation{
+    font-size: large;
+    font-style: italic;
+    color: #34a853;
+}
+.subpost{
+    font-style:oblique;
+    color: #fbbc05;
+}
+
+.slick-slide > div{
+    margin:0 10px;
+}
+
+.dark .slider-w{
+    color: #fff;
+}
