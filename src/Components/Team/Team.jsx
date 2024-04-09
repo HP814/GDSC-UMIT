@@ -82,6 +82,7 @@ const data = [
     img: `/students/harshali.jpeg`,
     designation: `Technical Lead`,
     subpost:`Web Developer`,
+    url:`https://www.linkedin.com/in/avantika-yadav-16712b226/`,
   },
   {
     name: `Mansi Awari`,
