@@ -17,7 +17,7 @@ const Team = ({theme,setTheme}) => {
   };
   return (
     <div className='slider-w'>
-        <div className='heading'><h1>Our Team</h1></div>
+        <div className='heading'>Our Team</div>
         <div className='mt'>
         <Slider {...settings}>
           {data.map((d)=>(
@@ -26,7 +26,7 @@ const Team = ({theme,setTheme}) => {
                   <img src={d.img} alt="" className='image'/>
                 </div>
                 <div className='desc'>
-                  <p className='name'>{<a href={d.url} target='blank'>{d.name}</a>}</p>
+                  <p className='name'>{<a href={d.url} target='blank' className='tlink'>{d.name}</a>}</p>
                   <p className='designation'>{d.designation}</p>
                   <p className='subpost'>{d.subpost}</p>
                 </div>  

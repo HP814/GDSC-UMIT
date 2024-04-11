@@ -1,0 +1,128 @@
+.slider-w1{
+    width: 75%;
+    margin: auto;
+}
+.heading1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.heading1:hover{
+    color: #34a853;
+}
+.mt1{
+    margin-top: 40px;
+}
+.card-slider1{
+    background-color:rgba(232, 70, 55, 0);
+    border-color: #34a853; 
+    box-shadow: 0 0 10px  #34a853; 
+    outline: none; 
+    height: 150px;
+    color: black;
+    border-radius: 12px;
+}
+/* .card-img1{
+    border-top-left-radius: 12px; 
+    border-top-right-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 157px;
+}
+.image1{
+    height: 123px;
+    width: 123px;
+    border-radius: 9999px;
+} */
+.desc1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+}
+.name1{
+    font-size:20px;
+    line-height: 1;
+    font-weight:bold;
+    color: #34a853;
+}
+.slink:link{
+    text-decoration: none;
+    color: #34a853;
+}
+.slink:visited{
+    text-decoration: none;
+    color: #34a853;
+}
+.slink:active{
+    text-decoration: none;
+    color: #34a853;
+}
+.slink:hover{
+    color:#fbbc05;
+    cursor: pointer;
+}
+.designation1{
+    font-size: medium;
+    font-style: italic;
+    color: #ea4335;
+}
+.review{
+    font-size: medium;
+    font-style:italic;
+    text-align: justify;
+    padding: 10px;
+    color:  #4285f4;
+}
+
+.slick-slide > div{
+    margin:0 10px;
+}
+
+.dark .slider-w1{
+    color: #fff;
+}
+
+.dark .card-slider1{
+    border-color: #fff; 
+    box-shadow: 0 0 10px  #fbbc05; 
+    outline: none; 
+}
+.dark .name1{
+    color: #fbbc05;
+}
+.dark .slink:hover{
+    color:#34a853;
+    cursor: pointer;
+}
+.dark .designation1{
+    color: #4285f4;
+}
+.dark .review{
+    color: #ef5749;
+}
+
+.dark .heading1{
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow1 1s ease-in-out infinite alternate;
+    -moz-animation: glow1 1s ease-in-out infinite alternate;
+    animation: glow1 1s ease-in-out infinite alternate;
+}
+.dark .heading1:hover{
+    color: #fbbc05;
+}
+@-webkit-keyframes glow1 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #34a853, 0 0 40px #34a853, 0 0 50px #34a853, 0 0 60px #34a853, 0 0 70px #34a853;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #fbbc05, 0 0 40px #fbbc05, 0 0 50px #fbbc05, 0 0 60px #fbbc05, 0 0 70px #fbbc05, 0 0 80px #fbbc05;
+    }
+}

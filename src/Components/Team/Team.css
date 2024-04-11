@@ -6,9 +6,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size:xx-large;
+    font-weight: 600;
     padding-top: 30px;
 }
-h1:hover{
+.heading:hover{
     color: #4285f4;
 }
 .mt{
@@ -16,6 +18,7 @@ h1:hover{
 }
 .card-slider{
     background-color: #fff;
+    border: #000 solid;
     height: 350px;
     color: black;
     border-radius: 12px;
@@ -47,19 +50,19 @@ h1:hover{
     font-weight: 600;
     color: #4285f4;
 }
-a:link{
+.tlink:link{
     text-decoration: none;
     color: #4285f4;
 }
-a:visited{
+.tlink:visited{
     text-decoration: none;
     color: #4285f4;
 }
-a:active{
+.tlink:active{
     text-decoration: none;
     color: #4285f4;
 }
-a:hover{
+.tlink:hover{
     color: #ea4335;
     cursor: pointer;
 }
@@ -80,3 +83,41 @@ a:hover{
 .dark .slider-w{
     color: #fff;
 }
+.dark .card-slider{
+    background-color: #4286f43d;
+    border: #fff solid;
+}
+.dark .name{
+    color: #ea4335;
+}
+.dark .tlink:link{
+    text-decoration: none;
+    color: #ea4335;
+}
+.dark .tlink:visited{
+    color: #ea4335;
+}
+.dark .tlink:active{
+    color: #ea4335;
+}
+.dark .tlink:hover{
+    color: #4285f4;
+}
+.dark .heading{
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.dark .heading:hover{
+    color: #ea4335;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4285f4, 0 0 40px #4285f4, 0 0 50px #4285f4, 0 0 60px #4285f4, 0 0 70px #4285f4;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ea4335, 0 0 40px #ea4335, 0 0 50px #ea4335, 0 0 60px #ea4335, 0 0 70px #ea4335, 0 0 80px #ea4335;
+    }
+  }

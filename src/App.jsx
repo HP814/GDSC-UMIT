@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Team from './Components/Team/Team';
+import Testimonials from './Components/Testimonials/Testimonials';
 
 const App = () => {
 
@@ -19,6 +20,9 @@ const App = () => {
     </div>
     <div>
       <Team/>
+    </div>
+    <div>
+      <Testimonials theme={theme} setTheme={setTheme}/>
     </div>
     </div>
   )
