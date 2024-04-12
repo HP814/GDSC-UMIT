@@ -18,35 +18,33 @@
 }
 .card-slider{
     background-color: #fff;
-    border: #000 solid;
+    /* border: #000 solid; */
     height: 350px;
     color: black;
-    border-radius: 12px;
+    /* border-radius: 12px; */
 }
 .card-img{
-    border-top-left-radius: 12px; 
-    border-top-right-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 224px;
+    height: 275px;
 }
 .image{
-    height: 176px;
-    width: 176px;
-    border-radius: 9999px;
+    height: 260px;
+    width: 220px;
+    /* border-radius: 9999px; */
 }
 .desc{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4px;
-    padding: 4px;
+    /* gap: 2px; */
+    /* padding: 2px; */
 }
 .name{
-    font-size: x-large;
-    line-height: 2;
+    font-size: 25px;
+    /* line-height: 2; */
     font-weight: 600;
     color: #4285f4;
 }
@@ -67,11 +65,12 @@
     cursor: pointer;
 }
 .designation{
-    font-size: large;
+    font-size: 15px;
     font-style: italic;
     color: #34a853;
 }
 .subpost{
+    font-size: 18px;
     font-style:oblique;
     color: #fbbc05;
 }
@@ -82,10 +81,6 @@
 
 .dark .slider-w{
     color: #fff;
-}
-.dark .card-slider{
-    background-color: #4286f43d;
-    border: #fff solid;
 }
 .dark .name{
     color: #ea4335;
@@ -115,9 +110,9 @@
 }
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4285f4, 0 0 40px #4285f4, 0 0 50px #4285f4, 0 0 60px #4285f4, 0 0 70px #4285f4;
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #4285f4, 0 0 20px #4285f4, 0 0 25px #4285f4, 0 0 30px #4285f4, 0 0 35px #4285f4;
     }
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ea4335, 0 0 40px #ea4335, 0 0 50px #ea4335, 0 0 60px #ea4335, 0 0 70px #ea4335, 0 0 80px #ea4335;
+      text-shadow: 0 0 10px #fff, 0 0 15px #ea4335, 0 0 20px #ea4335, 0 0 25px #ea4335, 0 0 30px #ea4335, 0 0 35px #ea4335, 0 0 40px #ea4335;
     }
   }
