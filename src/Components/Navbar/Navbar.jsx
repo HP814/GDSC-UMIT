@@ -16,7 +16,7 @@ const Navbar = ({theme,setTheme}) => {
 
     return (
     <div className='navbar'>
-        <img src={theme=='light' ? logo_light : logo_dark} alt="" className='logo'/>
+        <a href="https://gdsc.community.dev/usha-mittal-institute-of-technology-mumbai/" target="_blank"><img src={theme=='light' ? logo_light : logo_dark} alt="" className='logo'/></a>
         <ul>
             <li>Home</li>
             <li>About Us</li>

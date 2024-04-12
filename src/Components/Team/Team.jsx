@@ -45,6 +45,7 @@ const data = [
     img: `/students/harshali.jpeg`,
     designation: `Chapter Lead`,
     subpost: ``,
+    url: `https://www.linkedin.com/in/mehwishqureshi/`,
   },
   {
     name: `Harshali Patil`,
@@ -58,24 +59,28 @@ const data = [
     img: `/students/harshali.jpeg`,
     designation: `Head of Operation`,
     subpost: ``,
+    url: `https://www.linkedin.com/in/preksha-dhar-b21a98200/`,
   },
   {
     name: `Neha Kulkarni`,
     img: `/students/harshali.jpeg`,
     designation: `UI/UX Lead`,
     subpost:`Web Designer`,
+    url:`https://www.linkedin.com/in/nehakulkarni11/`,
   },
   {
     name: `Arjoo Baghele`,
     img: `/students/harshali.jpeg`,
     designation: `UI/UX Co-Lead`,
     subpost: `Web Developer`,
+    url:`https://www.linkedin.com/in/arjoobaghele137/`,
   },
   {
     name: `Ira Mane`,
     img: `/students/harshali.jpeg`,
     designation: `Content Stratergist`,
     subpost:`Web Developer`,
+    url:`https://www.linkedin.com/in/ira-mane/`,
   },
   {
     name: `Avantika Yadav`,
@@ -89,18 +94,21 @@ const data = [
     img: `/students/harshali.jpeg`,
     designation: `Technical Co-Lead`,
     subpost: ``,
+    url:`https://x.com/awari_mansi?t=eefZpSIQaLg2Oc4_8JqpPw&s=09`,
   },
   {
     name: `Mansi Gawade`,
     img: `/students/harshali.jpeg`,
     designation: `PR & Marketing Lead`,
     subpost: ``,
+    url:`https://www.linkedin.com/in/mansi-gawade-0387b41ba/`,
   },
   {
     name: `Riya Thakur`,
     img: `/students/harshali.jpeg`,
     designation: `PR & Marketing Co-Lead`,
     subpost: ``,
+    url:`https://www.linkedin.com/in/riya-thakur-a73758246/`,
   },
   {
     name: `Saakshi Raut`,
