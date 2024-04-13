@@ -1,0 +1,82 @@
+.abt-c{
+    transition: .01s;
+}
+.heading2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.heading2:hover{
+    color:#fbbc05;
+}
+.dark .heading2{
+    color: #fff;
+}
+.dark .heading2:hover{
+    color: #fbbc05;
+}
+.about-container {
+    display: flex;
+}
+.image-section {
+    flex: 0.2 0 auto; /* Make the image section take up all available space */
+    padding-left: 20px; /* Add spacing between image and content */
+    justify-content: center;
+    align-items: center;
+}
+  
+  .abt-image {
+    width: 450px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .content-section {
+    flex: 1; /* Make the content section take up all available space */
+    padding: 100px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dark .content-section{
+    color: #fff;
+  }
+  .join-btn{
+    font-size: 15px;
+    background-color: #1d0030;
+    color: #fff;
+    border: #1d0030;
+    border-radius: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  .join-btn:hover{
+    color: #caf4fa;
+  }
+
+  .dark .join-btn{
+    background-color: #caf4fa;
+    color: black;
+  }
+  .dark .join-btn:hover{
+    color: #1d0030;
+  }
+  @media screen and (max-width: 768px) {
+    .about-container {
+      flex-direction: column-reverse; /* Stack elements vertically on small screens */
+    }
+  
+    .image-section,
+    .content-section {
+      width: 100%; /* Ensure both sections take up full width on small screens */
+    }
+  }
+  

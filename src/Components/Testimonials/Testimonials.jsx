@@ -4,10 +4,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Testimonials = ({theme,setTheme}) => {
-  const toggle_mode = () =>{
-    theme=='light' ? setTheme('dark') : setTheme('light');
-  }
+const Testimonials = ({id,theme,setTheme}) => {
+  
   const settings = {
     dots: false,
     infinite: true,
@@ -16,7 +14,7 @@ const Testimonials = ({theme,setTheme}) => {
     slidesToScroll: 2
   };
   return (
-    <div className='slider-w1'>
+    <div className='slider-w1' id={id}>
         <div className='heading1'>Testimonials</div>
         <div className='mt1'>
         <Slider {...settings}>

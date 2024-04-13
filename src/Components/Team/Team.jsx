@@ -4,10 +4,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Team = ({theme,setTheme}) => {
-  const toggle_mode = () =>{
-    theme=='light' ? setTheme('dark') : setTheme('light');
-  }
+const Team = ({id,theme,setTheme}) => {
+
   const settings = {
     dots: false,
     infinite: true,
@@ -16,7 +14,7 @@ const Team = ({theme,setTheme}) => {
     slidesToScroll: 3
   };
   return (
-    <div className='slider-w'>
+    <div className='slider-w' id={id}>
         <div className='heading'>Our Team</div>
         <div className='mt'>
         <Slider {...settings}>
@@ -115,12 +113,14 @@ const data = [
     img: `/students/harshali.jpeg`,
     designation: `Sponsorship Lead`,
     subpost: ``,
+    url:`https://www.linkedin.com/in/rautsaakshi/`,
   },
   {
     name: `Ritika Raut`,
     img: `/students/harshali.jpeg`,
     designation: `Sponsorship Co-Lead`,
     subpost: ``,
+    url:`https://www.linkedin.com/in/reetika-raut-07a55522b/`,
   },
 ]
 

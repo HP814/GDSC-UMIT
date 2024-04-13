@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Team from './Components/Team/Team';
 import Testimonials from './Components/Testimonials/Testimonials';
+import About from './Components/About/About';
 
 const App = () => {
 
@@ -19,10 +20,13 @@ const App = () => {
       <Navbar theme={theme} setTheme={setTheme}/>
     </div>
     <div>
-      <Team/>
+      <About id={'about'} theme={theme} setTheme={setTheme}/>
     </div>
     <div>
-      <Testimonials theme={theme} setTheme={setTheme}/>
+      <Team id={'team'} theme={theme} setTheme={setTheme}/>
+    </div>
+    <div>
+      <Testimonials id={'testimonials'} theme={theme} setTheme={setTheme}/>
     </div>
     </div>
   )

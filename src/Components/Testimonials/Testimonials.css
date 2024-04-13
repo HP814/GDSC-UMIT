@@ -108,21 +108,21 @@
     color: #ef5749;
 }
 
-.dark .heading1{
+/* .dark .heading1{
     color: #fff;
     text-align: center;
     -webkit-animation: glow1 1s ease-in-out infinite alternate;
     -moz-animation: glow1 1s ease-in-out infinite alternate;
     animation: glow1 1s ease-in-out infinite alternate;
-}
+} */
 .dark .heading1:hover{
     color: #fbbc05;
 }
-@-webkit-keyframes glow1 {
+/* @-webkit-keyframes glow1 {
     from {
         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #34a853, 0 0 40px #34a853, 0 0 50px #34a853, 0 0 60px #34a853, 0 0 70px #34a853;
     }
     to {
         text-shadow: 0 0 20px #fff, 0 0 30px #fbbc05, 0 0 40px #fbbc05, 0 0 50px #fbbc05, 0 0 60px #fbbc05, 0 0 70px #fbbc05, 0 0 80px #fbbc05;
     }
-}
+} */
