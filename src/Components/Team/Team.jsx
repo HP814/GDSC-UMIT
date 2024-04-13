@@ -3,9 +3,14 @@ import './Team.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMinus } from '@fortawesome/free-solid-svg-icons'
+import { height } from '@fortawesome/free-brands-svg-icons/fa42Group'
+
 
 const Team = ({id,theme,setTheme}) => {
-
+  
+  const element = <FontAwesomeIcon icon={faMinus} className='iconStyle'/>
   const settings = {
     dots: false,
     infinite: true,
@@ -15,7 +20,7 @@ const Team = ({id,theme,setTheme}) => {
   };
   return (
     <div className='slider-w' id={id}>
-        <div className='heading'>Our Team</div>
+        <div className='heading'>The Team{element}</div>
         <div className='mt'>
         <Slider {...settings}>
           {data.map((d)=>(
@@ -24,7 +29,7 @@ const Team = ({id,theme,setTheme}) => {
                   <img src={d.img} alt="" className='image'/>
                 </div>
                 <div className='desc'>
-                  <p className='name'>{<a href={d.url} target='blank' className='tlink'>{d.name}</a>}</p>
+                  <p className='name'>{<a href={d.url} target='blank' className='tlink' style={{fontFamily:"Sedan"}}>{d.name}</a>}</p>
                   <p className='designation'>{d.designation}</p>
                   <p className='subpost'>{d.subpost}</p>
                 </div>  

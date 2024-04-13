@@ -3,9 +3,16 @@ import './Testimonials.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMinus } from '@fortawesome/free-solid-svg-icons'
+import { height } from '@fortawesome/free-brands-svg-icons/fa42Group'
+
+
+
 
 const Testimonials = ({id,theme,setTheme}) => {
   
+  const element = <FontAwesomeIcon icon={faMinus} className='iconStyle'/>
   const settings = {
     dots: false,
     infinite: true,
@@ -15,7 +22,7 @@ const Testimonials = ({id,theme,setTheme}) => {
   };
   return (
     <div className='slider-w1' id={id}>
-        <div className='heading1'>Testimonials</div>
+        <div className='heading1'>{element}Testimonials</div>
         <div className='mt1'>
         <Slider {...settings}>
           {data.map((d)=>(
@@ -24,7 +31,7 @@ const Testimonials = ({id,theme,setTheme}) => {
                   <img src={d.img} alt="" className='image1'/>
                 </div> */}
                 <div className='desc1'>
-                  <p className='name1'>{<a href={d.url} target='blank' className='slink'>{d.name}</a>}</p>
+                  <p className='name1'>{<a href={d.url} target='blank' className='slink' style={{fontFamily:"Sedan"}}>{d.name}</a>}</p>
                   <p className='designation1'>{d.designation}</p>
                   <p className='review'>{d.review}</p>
                 </div>  

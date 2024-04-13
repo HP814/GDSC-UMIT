@@ -1,11 +1,21 @@
 .abt-c{
     transition: .01s;
 }
+.iconStyle{
+   color: #4d007e;
+   font-size: 50px;
+   transform: rotate(90deg);
+}
+.dark .iconStyle{
+  color: #caf4fa;
+}
 .heading2{
     display:flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    padding-left: 50px;
     font-size:xx-large;
+    font-family: "Sedan";
     font-weight: 600;
     padding-top: 30px;
 }
@@ -35,10 +45,12 @@
     max-height: 100%;
   }
   
+  
   .content-section {
     flex: 1; /* Make the content section take up all available space */
     padding: 100px;
     font-size: 25px;
+    font-family: "Sedan";
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,6 +61,7 @@
   }
   .join-btn{
     font-size: 15px;
+    font-family: "Open";
     background-color: #1d0030;
     color: #fff;
     border: #1d0030;

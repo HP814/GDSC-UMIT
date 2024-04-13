@@ -4,10 +4,11 @@
 }
 .heading{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     font-size:xx-large;
     font-weight: 600;
+    font-family: "Sedan";
     padding-top: 30px;
 }
 .heading:hover{
@@ -44,6 +45,7 @@
 }
 .name{
     font-size: 25px;
+    font-family: "Sedan";
     /* line-height: 2; */
     font-weight: 600;
     color: #4285f4;
@@ -66,13 +68,15 @@
 }
 .designation{
     font-size: 15px;
-    font-style: italic;
-    color: #34a853;
+    font-family: "Sedan";
+    /* font-style: italic; */
+    color: #000;
 }
 .subpost{
     font-size: 18px;
-    font-style:oblique;
-    color: #fbbc05;
+    font-family: "Sedan";
+    /* font-style:oblique; */
+    color: #000;
 }
 
 .slick-slide > div{
@@ -101,18 +105,18 @@
 .dark .heading{
   color: #fff;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  /* -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate; */
 }
 .dark .heading:hover{
     color: #ea4335;
 }
-@-webkit-keyframes glow {
+/* @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #4285f4, 0 0 20px #4285f4, 0 0 25px #4285f4, 0 0 30px #4285f4, 0 0 35px #4285f4;
     }
     to {
       text-shadow: 0 0 10px #fff, 0 0 15px #ea4335, 0 0 20px #ea4335, 0 0 25px #ea4335, 0 0 30px #ea4335, 0 0 35px #ea4335, 0 0 40px #ea4335;
     }
-  }
+  } */

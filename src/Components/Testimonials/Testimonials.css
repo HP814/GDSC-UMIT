@@ -4,9 +4,10 @@
 }
 .heading1{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     font-size:xx-large;
+    font-family: "Sedan";
     font-weight: 600;
     padding-top: 30px;
 }
@@ -47,6 +48,7 @@
     padding: 4px;
 }
 .name1{
+    font-family: "Sedan";
     font-size:20px;
     line-height: 1;
     font-weight:bold;
@@ -69,16 +71,18 @@
     cursor: pointer;
 }
 .designation1{
+    font-family: "Sedan";
     font-size: medium;
-    font-style: italic;
+    /* font-style: italic; */
     color: #ea4335;
 }
 .review{
     font-size: medium;
-    font-style:italic;
+    font-family: "Sedan";
+    /* font-style:italic; */
     text-align: justify;
     padding: 10px;
-    color:  #4285f4;
+    color:  #000;
 }
 
 .slick-slide > div{
@@ -105,7 +109,7 @@
     color: #4285f4;
 }
 .dark .review{
-    color: #ef5749;
+    color: #fff;
 }
 
 /* .dark .heading1{
