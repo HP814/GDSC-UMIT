@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "title":"Pixel Probe",
+        "des":"GDSC UMIT proudly presents 'Pixel Probe' our Medium page and blog series where students share their insights and experiences related to various technologies. ",
+        "img":"/img/img1.png"
+    },
+
+    {
+        "id":2,
+        "title":"SpaceSprint Hackathon",
+        "des":"In collaboration with IEEE UMIT, GDSC UMIT recently hosted a hackathon for students of UMIT. It provided an platform for students to showcase their skills.",
+        "img":"/img/img2.jpg"
+    },
+    {
+        "id":3,
+        "title":"Google Cloud Study Jam",
+        "des":"GDSC UMIT  hosted a session to introduce students to the Google Cloud Study Jam program and its benefits. Students also won goodies.",
+        "img":"/img/img3.png"
+    },
+    {
+        "id":4,
+        "title":"Hacktober Fest",
+        "des":"GDSC organized an enlightening session to introduce students to the vibrant world of open-source contribution through the renowned event, Hacktoberfest. ",
+        "img":"/img/img4.jpg"
+    },
+    {
+        "id":5,
+        "title":"Solution Challenge",
+        "des":"GDSC UMIT hosted an engaging session to introduce students to the Solution Challenge Program, an exciting opportunity for budding innovators.",
+        "img":"/img/img5.jpg"
+    },
+    {
+        "id":6,
+        "title":"Industrial visit",
+        "des":"The GDSC UMIT organized an enriching industrial visit to Capgemini, a pioneer in the corporate world. ",
+        "img":"/img/img6.jpg"
+    }
+]
