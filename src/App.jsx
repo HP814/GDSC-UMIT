@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Team from './Components/Team/Team';
 import Testimonials from './Components/Testimonials/Testimonials';
 import About from './Components/About/About';
+import Whatsapp from './Components/Whatsapp/Whatsapp';
 
 const App = () => {
 
@@ -28,6 +29,7 @@ const App = () => {
     <div>
       <Testimonials id={'testimonials'} theme={theme} setTheme={setTheme}/>
     </div>
+    <Whatsapp/>
     </div>
   )
 }

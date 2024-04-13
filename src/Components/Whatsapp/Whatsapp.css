@@ -1,0 +1,12 @@
+.whatsappicon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+.whatsappimg {
+    width: 80px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+  
+  
