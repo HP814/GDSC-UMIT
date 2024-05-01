@@ -29,8 +29,8 @@ const Navbar = ({theme,setTheme}) => {
             <li onClick={() => scrollToSection('team')}>Team</li>
             <li>Events</li>
             <li>Resources</li>
-            <li>Blogs</li>
-            <li>Contact Us</li>
+            <li onClick={() => scrollToSection('blogs')}>Blogs</li>
+            <li onClick={() => scrollToSection('contacts')}>Contacts</li>
         </ul>
 
         <img onClick={()=>{toggle_mode()}} src={theme=='light' ? toggle_light : toggle_dark} alt="" className='toggle-icon'/>

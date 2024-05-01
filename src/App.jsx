@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Team from './Components/Team/Team';
+import Blogs from './Components/Blogs/Blogs';
 import Testimonials from './Components/Testimonials/Testimonials';
 import About from './Components/About/About';
+import Contacts from './Components/Contacts/Contacts';
 import Whatsapp from './Components/Whatsapp/Whatsapp';
 
 const App = () => {
@@ -28,6 +30,12 @@ const App = () => {
     </div>
     <div>
       <Testimonials id={'testimonials'} theme={theme} setTheme={setTheme}/>
+    </div>
+    <div>
+      <Blogs id={'blogs'} theme={theme} setTheme={setTheme}/>
+    </div>
+    <div>
+      <Contacts id={'contacts'} theme={theme} setTheme={setTheme}/>
     </div>
     <Whatsapp/>
     </div>

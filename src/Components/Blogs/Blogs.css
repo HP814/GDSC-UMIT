@@ -1,0 +1,42 @@
+/* Blogs.css */
+
+.left-frame {
+    width: 50%; /* Adjust as needed */
+  }
+  
+  .blog-image {
+    width: 80%; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 10px;
+    margin-left: 10%; /* Shift the image to the right */
+  }
+  
+  .content-section {
+    width: 50%; /* Adjust as needed */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .content-section p {
+    font-family: "Sedan";
+    font-weight: bold;
+  }
+  
+  .content-section a {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .join-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .join-btn:hover {
+    background-color: #0056b3;
+  }
+  
